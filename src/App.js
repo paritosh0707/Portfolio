@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'; // Import your CSS file for styling
-import PortfolioCard from './card'; // Adjust the path as necessary
+import ProjectCard from './card'; // Adjust the path as necessary
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <PortfolioCard/>
+      <ProjectCard/>
 
       {/* Header */}
       <header id="home" className="header">
@@ -84,7 +84,7 @@ function PortfolioSection() {
         {/* Each thumbnail should link to a detailed project page */}
         <div className="portfolio-grid">
           {/* Example Portfolio Card */}
-          <PortfolioCard
+          <ProjectCard
             imageUrl="project1.jpg"
             title="Project 1"
             description="Project 1 Description"
