@@ -9,6 +9,10 @@ body {
   color: #fff;
 }
 
+.CardText{
+  color:orangered;
+}
+
 /* Navigation Menu */
 .navbar {
   background-color: transparent;
