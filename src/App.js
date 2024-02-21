@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css"; // Import your CSS file for styling
 import ProjectCard from "./Card"; // Adjust the path as necessary
-import Project1 from "./Projects/Project1";
-import { BrowserRouter as Route, Router } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function App() {
   // function PortfolioSection() {
