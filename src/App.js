@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css"; // Import your CSS file for styling
-import ProjectCard from "./Card"; // Adjust the path as necessary
+import Med_chatbot_card from "./Components/Cards/Med_chatbot_card/Card";
+// import Med_chatbot from "./Med_chatbot.jpg";
+import Intro from "./Components/Intro/Intro";
 
 function App() {
   // function PortfolioSection() {
@@ -51,19 +53,12 @@ function App() {
           </li>
         </ul>
       </nav>
-      <ProjectCard />
 
-      {/* Header */}
+      {/* Introduction */}
       <header id="home" className="header">
-        <div className="banner">
-          {/* Large banner image or video background */}
-          {/* Title and subtitle */}
-          <h1 className="title">[Your Name]'s Portfolio</h1>
-          <p className="subtitle">Discover [Your Name]'s Creative Work</p>
-          {/* "Watch Now" button */}
-          <button className="watch-now-btn">Watch Now</button>
-        </div>
+        <Intro />
       </header>
+      
 
       {/* About Section */}
       <section id="about" className="about">
@@ -93,6 +88,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <Med_chatbot_card />
 
       {/* Contact Section */}
       <section id="contact" className="contact">

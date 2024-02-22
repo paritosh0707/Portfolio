@@ -1,0 +1,11 @@
+.profile-img {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    object-fit:cover;
+  }
+
+  .introduction-container{
+    display: flex;
+    justify-content:space-around;
+  }
