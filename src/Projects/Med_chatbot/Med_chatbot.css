@@ -1,0 +1,28 @@
+.project-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section .content {
+  width: 100%;
+}
+
+.section .image {
+  width: 40%;
+}
+
+/* Alternating alignment for left and right sections */
+.section:nth-child(even) .content {
+  order: 2;
+}
+
+.section:nth-child(even) .image {
+  order: 1;
+}

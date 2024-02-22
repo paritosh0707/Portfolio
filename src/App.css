@@ -19,10 +19,15 @@ body {
   padding: 20px;
 }
 
+
+  
+
+
 .nav-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: end;
 }
 
 .nav-links li {
