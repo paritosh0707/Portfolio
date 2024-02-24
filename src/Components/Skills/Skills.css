@@ -1,16 +1,29 @@
-.skill-container{
+.skills-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100% ;
+    /* background-color: whitesmoke; */
+}
+
+.skill-heading-container{
+    width:100%;
+    font-size: xx-large;
+    /* background-color:grey; */
+    /* opacity: 60%; */
+    /* background-blend-mode: luminosity; */
+}
+
+.skill-heading{
+    font-size: 4rem;
 }
 
 
 .skill-img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    object-fit:cover;
+    width: 6rem;
+    height: 6rem;
+    /* border-radius: 50%; */
+    object-fit:fit;
     background: transparent;
   }
 

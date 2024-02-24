@@ -96,7 +96,8 @@ body {
 
 .about-content {
   /* max-width: 800px; */
-  margin: 2rem;
+  width: 100%;
+  /* margin: 2rem; */
   color: #fff; /* White text */
 }
 
