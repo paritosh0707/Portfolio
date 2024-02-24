@@ -9,25 +9,34 @@ body {
   color: #fff;
 }
 
+/* .App{
+  background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-opacity: 70%;
+ 
+} */
+
 .CardText{
   color:orangered;
 }
 
 /* Navigation Menu */
 .navbar {
-  background-color: transparent;
+  background-color: #5d0307;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  text-align: end;
+  /* margin-right: 3rem; */
 }
-
-
-  
-
 
 .nav-links {
   list-style-type: none;
-  margin: 0;
+  margin: 0px 20px 0px 0px;
   padding: 0;
-  text-align: end;
+  
 }
 
 .nav-links li {
@@ -80,14 +89,14 @@ body {
 
 /* About Section */
 .about {
-  padding: 100px 0;
-  background-color: #111; /* Dark background */
+  /* padding: rpx 0; */
+  background-color: tra;
   text-align: center;
 }
 
 .about-content {
-  max-width: 800px;
-  margin: 0 auto;
+  /* max-width: 800px; */
+  margin: 2rem;
   color: #fff; /* White text */
 }
 
@@ -112,7 +121,7 @@ body {
 /* Contact Section */
 .contact {
   padding: 100px 0;
-  background-color: #111; /* Dark background */
+  /* background-color: #111; Dark background */
   text-align: center;
 }
 

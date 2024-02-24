@@ -15,7 +15,7 @@ const Intro = () => {
         <h1 className="title">[Your Name]'s Portfolio</h1>
         <p className="subtitle">Discover [Your Name]'s Creative Work</p>
         {/* "Watch Now" button */}
-        <button className="watch-now-btn">Watch Now</button>
+        {/* <button className="watch-now-btn">Watch Now</button> */}
       </div>
     </div>
   );

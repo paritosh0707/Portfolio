@@ -3,6 +3,8 @@ import "./App.css"; // Import your CSS file for styling
 import Med_chatbot_card from "./Components/Cards/Med_chatbot_card/Card";
 // import Med_chatbot from "./Med_chatbot.jpg";
 import Intro from "./Components/Intro/Intro";
+// import background from "./Background.jpg";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   // function PortfolioSection() {
@@ -32,11 +34,14 @@ function App() {
   //   //  navigate to /Project1
   //   navigate('/Projects/Project1');
   // };
-
+  // style={{
+  //   backgroundImage: `url(${background})`}}
   // const navigate = useNavigate();
+
   return (
     <div className="App">
       {/* Navigation Menu */}
+      {/* <img className="background-img" src={background} alt="Background" /> */}
       <nav className="navbar">
         <ul className="nav-links">
           <li>
@@ -53,22 +58,21 @@ function App() {
           </li>
         </ul>
       </nav>
-
+     
       {/* Introduction */}
       <header id="home" className="header">
         <Intro />
       </header>
+
+      
       
 
       {/* About Section */}
       <section id="about" className="about">
         <div className="about-content">
-          <h2>About Me</h2>
+          <Skills />
           {/* Brief introduction about yourself */}
-          <p>
-            Brief introduction about yourself, your expertise, and what makes
-            you unique.
-          </p>
+          
         </div>
       </section>
 

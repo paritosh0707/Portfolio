@@ -1,0 +1,19 @@
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% ;
+}
+
+
+.skill-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit:cover;
+    background: transparent;
+  }
+
+.skill-img-container{
+    padding: 2rem 5rem;
+}
