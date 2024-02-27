@@ -5,6 +5,7 @@ import Med_chatbot_card from "./Components/Cards/Med_chatbot_card/Card";
 import Intro from "./Components/Intro/Intro";
 // import background from "./Background.jpg";
 import Skills from "./Components/Skills/Skills";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
   // function PortfolioSection() {
@@ -71,25 +72,13 @@ function App() {
       <section id="about" className="about">
         <div className="about-content">
           <Skills />
-          {/* Brief introduction about yourself */}
-          
         </div>
       </section>
 
       {/* Portfolio Section */}
       <section id="portfolio" className="portfolio">
         <div className="portfolio-content">
-          <h2>Portfolio</h2>
-          {/* Grid layout showcasing thumbnails of your projects */}
-          {/* Each thumbnail should link to a detailed project page */}
-          <div className="portfolio-grid">
-            {/* Example thumbnail */}
-            <div className="portfolio-item">
-              <img src="project1.jpg" alt="Project 1" />
-              <p>Project 1 Description</p>
-            </div>
-            {/* Add more portfolio items as needed */}
-          </div>
+          <Experience />
         </div>
       </section>
 
