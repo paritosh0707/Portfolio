@@ -59,49 +59,58 @@ function App() {
           </li>
         </ul>
       </nav>
-     
-      {/* Introduction */}
-      <header id="home" className="header">
+
+
+    
+
+      <section id="home" className="header">
         <Intro />
-      </header>
+      </section>
 
-      
-      
-
-      {/* About Section */}
       <section id="about" className="about">
         <div className="about-content">
           <Skills />
         </div>
       </section>
 
-      {/* Portfolio Section */}
+
       <section id="portfolio" className="portfolio">
         <div className="portfolio-content">
           <Experience />
         </div>
       </section>
+      
+     {/* <Med_chatbot_card></Med_chatbot_card> */}
+      {/* Introduction */}
+      
 
-      <Med_chatbot_card />
+      
+      
+
+      {/* About Section */}
+      
+
+      {/* Portfolio Section */}
+      
+
+      {/* <Med_chatbot_card /> */}
 
       {/* Contact Section */}
-      <section id="contact" className="contact">
+      {/* <section id="contact" className="contact">
         <div className="contact-content">
           <h2>Contact Me</h2>
-          {/* Contact form or contact information */}
-          <form className="contact-form">{/* Form fields */}</form>
+          <form className="contact-form"></form>
         </div>
       </section>
 
-      {/* Footer */}
+      
       <footer className="footer">
         <p className="copyright">
           &copy; 2024 [Your Name]. All rights reserved.
         </p>
-        {/* Social media links */}
-        {/* Terms of Service / Privacy Policy links */}
-      </footer>
-    </div>
+        
+      </footer> */}
+   </div>
   );
 }
 

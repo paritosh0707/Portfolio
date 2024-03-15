@@ -116,6 +116,95 @@ const Skills = () => {
         <img className="skill-img" src={Med_chatbot} alt="Background" />
         <div className="skill-name">Tensorflow</div>
       </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={python} alt="Background" />
+        <div className="skill-name">Python</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={airflow} alt="Background" />
+        <div className="skill-name">airflow</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={aws} alt="Background" />
+        <div className="skill-name">aws</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={azurefunctions} alt="Background" />
+        <div className="skill-name">azurefunctions</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={fileTypeAzure} alt="Background" />
+        <div className="skill-name">Azure</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={fileTypeDVC} alt="Background" />
+        <div className="skill-name">fileTypeDVC</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={flask} alt="Background" />
+        <div className="skill-name">flask</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={mongodb} alt="Background" />
+        <div className="skill-name">mongodb</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={mySql} alt="Background" />
+        <div className="skill-name">mySql</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={pandas} alt="Background" />
+        <div className="skill-name">pandas</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={pytorch} alt="Background" />
+        <div className="skill-name">pytorch</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={tensorflow} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={s3Bucket} alt="Background" />
+        <div className="skill-name">S3-bucket</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
+      <div className="skill-img-container">
+        <img className="skill-img" src={Med_chatbot} alt="Background" />
+        <div className="skill-name">Tensorflow</div>
+      </div>
     </div>
   );
 };
