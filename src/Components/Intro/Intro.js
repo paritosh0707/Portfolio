@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.css"; // Import CSS file for styling (if needed)
 // import { Link } from "react-router-dom";
 import profile_pic from "./Profile_pic.png";
-// import background from "./background.png";
+import mask_image from "./bk.avif";
 
 const Intro = () => {
   return (
@@ -14,6 +14,15 @@ const Intro = () => {
       {/* <div className="background2"></div> */}
 
       <div className="introduction-container">
+
+
+      <div className="name-container">
+          <div className="name-block">
+            <h1 className="name">Paritosh</h1>
+            <h1 className="name">Sharma</h1>
+            {/* <img src={mask_image} alt="Mask Image" className="mask-image" /> */}
+          </div>
+        </div>
         {/* <div className="profile-info-container"> */}
           <div className="Introduction">
             <div className="Introduction-block">
@@ -27,12 +36,7 @@ const Intro = () => {
         </div>
 
         
-          <div className="name-container">
-          <div className="name-block">
-            <h1 className="name">Paritosh</h1>
-            <h1 className="name">Sharma</h1>
-          </div>
-        </div>
+          
       </div>
     </div>
   );
